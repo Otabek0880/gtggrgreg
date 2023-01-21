@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.class_builder {
+  margin: 0 auto;
+  width: 400px;
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.color {
+  color: greenyellow;
+}
+.text {
+  border-bottom: 2px solid grey;
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.price {
+  margin-top: 5px;
+}
+@media (max-width: 447px) {
+  .class_builder {
+    width: 300px;
+    height: 310px;
+  }
+} ;
